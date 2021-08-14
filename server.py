@@ -76,3 +76,6 @@ def disconnect(sid):
 # @sio.on("my custom event", namespace="/chat")
 # def my_custom_event(sid, data):
 #     pass
+
+if __name__ == "__main__":
+    app
